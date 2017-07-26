@@ -68,6 +68,8 @@ ROBOTSTXT_OBEY = True
 #    'NBAScrape.pipelines.NbascrapePipeline': 300,
 #}
 
+FEED_EXPORT_FIELDS=["FirstName","LastName","Salary","TeamID"]
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
